@@ -1,0 +1,45 @@
+.banner {
+    background: url("https://news.airbnb.com/wp-content/uploads/sites/4/2020/05/Airbnb-Beachfront-Greece.jpg?fit=2400%2C1600") center center;
+    height: 62vh;
+    position: relative;
+}
+
+.banner__info {
+    background-color: black;
+    color: white;
+    padding-top: 25vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    width: 300px;
+}
+
+.banner__search {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__searchButton {
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: lightseagreen !important;
+}
+
+.banner__info > button {
+    background-color: lightseagreen;
+    color: white;
+    text-transform: inherit;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.banner__info > button:hover {
+    background-color: white;
+    color: lightseagreen;
+}
+
+.banner__info > h5 {
+    margin-top: 20px;
+}
+
